@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1661084531520826062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661084531520826060}
+  - component: {fileID: 1661084531520826061}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1661084531520826060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661084531520826062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.29419047, y: 0.28513545, z: -1.7099609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1661084531520826061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661084531520826062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494269481e7d25f4fb52674c7cd53a77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_audio:
+    sounds:
+    - {fileID: 8300000, guid: 881e3f52c86c94f26a60718d35627cd8, type: 3}
+    - {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
+    - {fileID: 8300000, guid: 52320e590bf774734a288886eba557ba, type: 3}
+    defaultClip: {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
+    menuMusic: {fileID: 8300000, guid: c5861aaf9fc034f259335794d8f045a6, type: 3}
+    gameMusic: {fileID: 8300000, guid: c5861aaf9fc034f259335794d8f045a6, type: 3}
+  m_score:
+    m_currentScore: 0
+    m_levelScoreBonus: 50
+    m_turnScoreBonus: 1
+  m_tokenColors:
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 0.048089504, g: 1, b: 0, a: 0}
+  - {r: 0, g: 0.21782398, b: 1, a: 0}
+  - {r: 1, g: 0, b: 0.9654913, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
